@@ -1,0 +1,95 @@
+###############################################################################
+#  Core OS files
+###############################################################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+###############################################################################
+#  Git & editor cruft
+###############################################################################
+*.swp
+*~
+.idea/
+.vscode/
+
+###############################################################################
+#  Node / Google Apps Script
+###############################################################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# CLASP project & settings (often contain script‑specific IDs)
+.clasp.json
+.clasp-settings.json
+
+###############################################################################
+#  Python / Google Colab
+###############################################################################
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.venv/
+venv/
+ENV/
+env/
+.conda/
+.pytest_cache/
+.coverage
+.cache/
+# Dependency/lock files
+Pipfile.lock
+poetry.lock
+requirements*.txt
+
+###############################################################################
+#  Secrets & environment variables
+###############################################################################
+.env
+.env.*
+credentials.json
+token.json
+*.pem
+*.key
+
+###############################################################################
+#  Office / VBA build artifacts
+###############################################################################
+# COM add‑in caches
+*.exd
+# UserForm binary blobs generated when exporting modules
+*.frx
+# Office temporary / lock files
+~$*.*
+# Backup files created by Excel / VBA editors
+*.tmp
+*.bak
+
+###############################################################################
+#  Logs, coverage, reports
+###############################################################################
+logs/
+*.log
+coverage.xml
+htmlcov/
+
+###############################################################################
+#  Docs build output
+###############################################################################
+/docs/_build/
+/docs/site/
+
+###############################################################################
+#  Misc large or generated artefacts
+###############################################################################
+*.pdf
+*.zip
+*.tar.gz
