@@ -59,9 +59,9 @@ sandbox-gworkspace-msoffice-automation/
 │   └── pivot_table-same_cache.bas
 │
 ├── Macro-PPT/
-│   ├── font_check.bas
-│   ├── get_titles.bas
-│   └── header_consistency_check.bas
+    ├── font_check.bas
+    ├── get_titles.bas
+    └── header_consistency_check.bas
 ```
 
 ## Quick start
@@ -79,10 +79,14 @@ Ensure to inspect code before running
 - Grant one‑time OAuth consent
 
 3. **Google Colab**
+Google colab used for quick sandboxing with minimum setup and can be used on most systems
+
 - colab.new to create new notebook and paste in
 - Follow cell prompts
 
-Google colab used for quick sandboxing with minimum setup and can be used on most systems
+Or
+- Click [open in colab](https://openincolab.com/) to open in notebook in your own Colab Virtual Machine (VM)
+- File > Save a copy in drive
 
 1. **Microsoft Macros**
 - Enable the Developer tab
