@@ -40,7 +40,7 @@ sandbox-gworkspace-msoffice-automation/
 │   ├── gdrive-create_folders.js
 │   ├── gdrive-links_from_folder.js
 │   ├── gmail-attachments_from_domain.js
-│   ├── gmail-list_week_email.js
+│   ├── gmail-list_day_email.js
 │   ├── gsheets-fuzzy_names_companies.js
 │   ├── gsheets-text_split.js
 │   └── gsheets-update_timezones.js
